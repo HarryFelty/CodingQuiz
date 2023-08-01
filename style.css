@@ -1,0 +1,67 @@
+h1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: gold;
+    font-size: 250%;
+}
+
+h2,
+form,
+ol {
+    color: gold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+span {
+    color: gold;
+    font-size: larger;
+}
+
+ol {
+    font-size: large;
+}
+
+.btn {
+    color: orange;
+    background-color: rgb(4, 4, 61);
+    font-size: 125%;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.5em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#timer {
+    float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+#highScores {
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+#scoreList {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
