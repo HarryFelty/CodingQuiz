@@ -52,7 +52,7 @@ function renderStartMenu() {
     score = 0;
     timer = 60;
     index = 0;
-    answerBtns.forEach(btn => { btn.disabled = true });
+    answerBtns.forEach(btn => btn.disabled = true);
 }
 
 //displays question and answers on screen
